@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [Tutorial Ninja TestNG Practice Suite]" parallel="tests">
+  <test thread-count="3" name="ProductInfoPage Test(failed)" parallel="methods">
+    <classes>
+      <class name="com.qa.tutorialninja.tests.ProductInfoPageTest">
+        <methods>
+          <include name="productInfoTest_MacBook"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="productInfoPageSetup"/>
+          <include name="productInfoPageTitleTest_iMac"/>
+          <include name="productInfoTest_iMac"/>
+        </methods>
+      </class> <!-- com.qa.tutorialninja.tests.ProductInfoPageTest -->
+    </classes>
+  </test> <!-- ProductInfoPage Test(failed) -->
+</suite> <!-- Failed suite [Tutorial Ninja TestNG Practice Suite] -->
